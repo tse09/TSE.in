@@ -3357,7 +3357,7 @@
                     } else if (email === 'mahima@tse.in' && password === 'Mahima#1304') {
                         portalType = 'mahimaCoordinatorPortal';
                         userName = 'Mahima Bhatt';
-                    } else if (email === '028vansh@gmail.com' || email === 'vansh@tse.in') {
+                    } else if (email === 'vansh@tse.in' || email === 'vansh@tse.in') {
                         portalType = 'portal';
                         userName = 'Vansh';
                     } else {
@@ -11445,7 +11445,7 @@
                                                         if (emailInput) {
                                                             emailInput.addEventListener('focus', function() {
                                                                 if (!this.value) {
-                                                                    this.value = '028vansh@gmail.com';
+                                                                    this.value = 'vansh@tse.in';
                                                                     this.classList.add('bg-emerald-50');
                                                                 }
                                                             });
@@ -11474,8 +11474,8 @@
                                                                 const rememberMe = this.querySelector('input[type="checkbox"]').checked;
                                                                 
                                                                 // Validate credentials
-                                                                if (email !== '028vansh@gmail.com' || password !== '123456') {
-                                                                    showNotification('✗ Invalid email or password. Use: 028vansh@gmail.com / 123456', 'error');
+                                                                if (email !== 'vansh@tse.in' || password !== 'Shushant#1304') {
+                                                                    showNotification('✗ Invalid email or password. Use: vansh@tse.in / 123456', 'error');
                                                                     return;
                                                                 }
                                                                 
@@ -15032,3 +15032,4 @@
 
 </body>
 </html>
+
