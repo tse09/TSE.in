@@ -3,653 +3,96 @@
     <meta charset="UTF-8">
    <link rel="icon" href="https://horizons-cdn.hostinger.com/cee446de-c236-4591-b8e5-f3ace8481109/7a368cfaf01ec17726b689fc69367d25.png" type="image/x-icon">
     <link rel="preload" href="https://horizons-cdn.hostinger.com/cee446de-c236-4591-b8e5-f3ace8481109/7a368cfaf01ec17726b689fc69367d25.png" as="image">
-        <!-- Innovative Loading Screen - IMPROVED -->
-                <div id="loadingScreen" class="fixed inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-gray-900 flex items-center justify-center z-[9999] backdrop-blur-sm">
-                    <!-- Animated Background Elements -->
-                    <div class="absolute inset-0 overflow-hidden">
-                        <div class="absolute top-10 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
-                        <div class="absolute top-40 right-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
-                        <div class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
-                    </div>
+      <div id="loadingScreen" class="fixed inset-0 bg-[#0a192f] flex items-center justify-center z-[9999] transition-opacity duration-500">
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute top-10 left-10 w-96 h-96 bg-blue-900 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob"></div>
+        <div class="absolute bottom-10 right-10 w-96 h-96 bg-slate-700 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob" style="animation-delay: 2s"></div>
+    </div>
 
-                    <!-- Loading Content -->
-                    <div class="relative z-10 text-center">
-                        <!-- Animated Logo Container -->
-                        <div class="mb-12 flex justify-center">
-                            <div class="relative w-32 h-32 flex items-center justify-center">
-                                <!-- Rotating Ring 1 -->
-                                <div class="absolute inset-0 rounded-full border-4 border-transparent border-t-blue-400 border-r-purple-400 animate-spin" style="animation-duration: 3s;"></div>
-                                
-                                <!-- Rotating Ring 2 -->
-                                <div class="absolute inset-4 rounded-full border-4 border-transparent border-b-pink-400 border-l-cyan-400 animate-spin" style="animation-duration: 4s; animation-direction: reverse;"></div>
-                                
-                                <!-- Rotating Ring 3 -->
-                                <div class="absolute inset-8 rounded-full border-2 border-transparent border-t-green-400 border-r-yellow-400 animate-spin" style="animation-duration: 2.5s;"></div>
-                                
-                                <!-- Logo -->
-                                <div class="relative flex items-center justify-center">
-                                    <!-- Animated Glow Background -->
-                                    <div class="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full opacity-40 blur-3xl animate-pulse" style="animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite; width: 280px; height: 280px;"></div>
-                                    
-                                    <!-- Rotating Ring 1 - Outer -->
-                                    <div class="absolute rounded-full border-4 border-transparent border-t-blue-300 border-r-purple-300 animate-spin" style="animation-duration: 4s; width: 240px; height: 240px;"></div>
-                                    
-                                    <!-- Rotating Ring 2 - Middle -->
-                                    <div class="absolute rounded-full border-3 border-transparent border-b-pink-300 border-l-cyan-300 animate-spin" style="animation-duration: 5s; animation-direction: reverse; width: 200px; height: 200px;"></div>
-                                    
-                                    <!-- Main Logo Container - Enhanced -->
-                                    <div class="relative bg-gradient-to-br from-blue-500 via-purple-500 to-pink-600 rounded-full p-10 shadow-2xl transform hover:scale-125 transition-all duration-500" style="width: 160px; height: 160px; box-shadow: 0 0 60px rgba(59, 130, 246, 0.8), 0 0 30px rgba(168, 85, 247, 0.6), inset 0 0 40px rgba(255, 255, 255, 0.3);">
-                                        <!-- Inner Circle with Logo -->
-                                        <div class="relative h-full flex items-center justify-center bg-gradient-to-r from-white/25 to-white/10 rounded-full p-2 backdrop-blur-xl border border-white/30">
-                                            <img src="https://horizons-cdn.hostinger.com/cee446de-c236-4591-b8e5-f3ace8481109/7a368cfaf01ec17726b689fc69367d25.png" alt="TSE Logo" class="w-24 h-24 drop-shadow-2xl animate-pulse" style="filter: drop-shadow(0 0 25px rgba(59, 130, 246, 1));"/>
-                                        </div>
-                                    </div>
-                                    
-                                    <!-- Rotating Ring 3 - Inner (New) -->
-                                    <div class="absolute rounded-full border-2 border-transparent border-t-pink-200 border-b-cyan-200 animate-spin" style="animation-duration: 3s; width: 140px; height: 140px; opacity: 0.7;"></div>
-                                    
-                                    <!-- Floating Particles - Enhanced -->
-                                    <div class="absolute w-3 h-3 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full animate-bounce" style="animation-delay: 0s; animation-duration: 2.5s; top: 20px; left: 50px; box-shadow: 0 0 15px rgba(59, 130, 246, 0.8);"></div>
-                                    <div class="absolute w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full animate-bounce" style="animation-delay: 0.3s; animation-duration: 2.5s; top: 50px; right: 20px; box-shadow: 0 0 15px rgba(168, 85, 247, 0.8);"></div>
-                                    <div class="absolute w-3 h-3 bg-gradient-to-r from-pink-400 to-rose-400 rounded-full animate-bounce" style="animation-delay: 0.6s; animation-duration: 2.5s; bottom: 30px; left: 35px; box-shadow: 0 0 15px rgba(244, 63, 94, 0.8);"></div>
-                                    <div class="absolute w-3 h-3 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full animate-bounce" style="animation-delay: 0.9s; animation-duration: 2.5s; bottom: 50px; right: 40px; box-shadow: 0 0 15px rgba(34, 211, 238, 0.8);"></div>
-                                    
-                                    <!-- Pulsing Dots -->
-                                    <div class="absolute w-2 h-2 bg-white rounded-full animate-pulse" style="animation-delay: 0s; top: 35px; left: 65px; opacity: 0.6;"></div>
-                                    <div class="absolute w-2 h-2 bg-white rounded-full animate-pulse" style="animation-delay: 0.4s; top: 65px; right: 35px; opacity: 0.6;"></div>
-                                    <div class="absolute w-2 h-2 bg-white rounded-full animate-pulse" style="animation-delay: 0.8s; bottom: 35px; right: 65px; opacity: 0.6;"></div>
-                                    <div class="absolute w-2 h-2 bg-white rounded-full animate-pulse" style="animation-delay: 1.2s; bottom: 65px; left: 35px; opacity: 0.6;"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Enhanced Innovative Loading Screen -->
-                        <div class="mb-8">
-                            <h2 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4 animate-bounce">
-                                The Skill Of Education
-                            </h2>
-                            <p class="text-xl text-gray-300 font-semibold mb-6 animate-pulse">
-                                <i class="fas fa-zap text-yellow-400 mr-2"></i>Preparing your journey...
-                            </p>
-                        </div>
-
-                        <!-- Advanced Progress Bars with Real Metrics -->
-                        <div class="w-80 mx-auto mb-8">
-                            <!-- Bar 1: Content Loading -->
-                            <div class="mb-6">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-xs font-bold text-blue-400 uppercase tracking-wide"><i class="fas fa-cube mr-2"></i>Assets</span>
-                                    <span class="text-xs font-bold text-blue-400" id="progress1">0%</span>
-                                </div>
-                                <div class="h-3 bg-gray-700 rounded-full overflow-hidden border border-blue-500/30 shadow-lg">
-                                    <div id="bar1" class="h-full bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 rounded-full transition-all duration-300" style="width: 0%; box-shadow: 0 0 10px rgba(59, 130, 246, 0.8);"></div>
-                                </div>
-                            </div>
-
-                            <!-- Bar 2: Features Initialization -->
-                            <div class="mb-6">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-xs font-bold text-purple-400 uppercase tracking-wide"><i class="fas fa-cogs mr-2"></i>Features</span>
-                                    <span class="text-xs font-bold text-purple-400" id="progress2">0%</span>
-                                </div>
-                                <div class="h-3 bg-gray-700 rounded-full overflow-hidden border border-purple-500/30 shadow-lg">
-                                    <div id="bar2" class="h-full bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600 rounded-full transition-all duration-300" style="width: 0%; box-shadow: 0 0 10px rgba(168, 85, 247, 0.8);"></div>
-                                </div>
-                            </div>
-
-                            <!-- Bar 3: Database Connection -->
-                            <div class="mb-6">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-xs font-bold text-pink-400 uppercase tracking-wide"><i class="fas fa-server mr-2"></i>Database</span>
-                                    <span class="text-xs font-bold text-pink-400" id="progress3">0%</span>
-                                </div>
-                                <div class="h-3 bg-gray-700 rounded-full overflow-hidden border border-pink-500/30 shadow-lg">
-                                    <div id="bar3" class="h-full bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 rounded-full transition-all duration-300" style="width: 0%; box-shadow: 0 0 10px rgba(244, 114, 182, 0.8);"></div>
-                                </div>
-                            </div>
-
-                            <!-- Server Status Check -->
-                            <div class="mt-8 p-4 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-xl border border-green-500/30">
-                                <div class="flex items-center gap-3">
-                                    <div class="w-3 h-3 rounded-full bg-green-400 animate-pulse" style="box-shadow: 0 0 10px rgba(74, 222, 128, 0.8);"></div>
-                                    <span class="text-sm font-semibold text-green-300"><i class="fas fa-check-circle mr-2"></i>All Systems Operational</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Animated Dots with Status Icons -->
-                        <div class="flex justify-center gap-3 mb-8">
-                            <div class="flex flex-col items-center">
-                                <div class="w-4 h-4 rounded-full bg-blue-400 animate-pulse mb-1" style="box-shadow: 0 0 10px rgba(96, 165, 250, 0.8);"></div>
-                                <span class="text-xs text-blue-300 font-bold">Fast</span>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <div class="w-4 h-4 rounded-full bg-purple-400 animate-pulse mb-1" style="animation-delay: 0.2s; box-shadow: 0 0 10px rgba(168, 85, 247, 0.8);"></div>
-                                <span class="text-xs text-purple-300 font-bold">Secure</span>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <div class="w-4 h-4 rounded-full bg-pink-400 animate-pulse mb-1" style="animation-delay: 0.4s; box-shadow: 0 0 10px rgba(244, 114, 182, 0.8);"></div>
-                                <span class="text-xs text-pink-300 font-bold">Reliable</span>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <div class="w-4 h-4 rounded-full bg-cyan-400 animate-pulse mb-1" style="animation-delay: 0.6s; box-shadow: 0 0 10px rgba(34, 211, 238, 0.8);"></div>
-                                <span class="text-xs text-cyan-300 font-bold">Ready</span>
-                            </div>
-                        </div>
-
-                        <!-- Dynamic Loading Message with Typewriter Effect -->
-                        <div class="text-gray-300 text-sm font-medium text-center mb-6">
-                            <span id="loadingText" class="inline-block">Loading amazing content</span>
-                            <span class="inline-block ml-2">
-                                <span class="animate-pulse">.</span>
-                                <span class="animate-pulse" style="animation-delay: 0.2s;">.</span>
-                                <span class="animate-pulse" style="animation-delay: 0.4s;">.</span>
-                            </span>
-                        </div>
-
-                        <!-- Server Status Alert (Hidden by default, shows on error) -->
-                        <div id="serverAlert" class="hidden mb-6 p-4 bg-red-500/20 rounded-xl border border-red-500/50 animate-pulse">
-                            <div class="flex items-center gap-3 text-red-300">
-                                <i class="fas fa-exclamation-circle text-xl"></i>
-                                <span class="font-semibold">Server temporarily offline. Please refresh the page.</span>
-                            </div>
-                        </div>
-
-                        <!-- Floating Performance Metrics -->
-                        <div class="absolute top-20 left-10 text-blue-400 opacity-40 animate-float" style="animation-duration: 4s;">
-                            <i class="fas fa-book text-3xl drop-shadow-lg"></i>
-                        </div>
-                        <div class="absolute bottom-20 right-10 text-purple-400 opacity-40 animate-float" style="animation-duration: 5s; animation-delay: 1s;">
-                            <i class="fas fa-graduation-cap text-3xl drop-shadow-lg"></i>
-                        </div>
-                        <div class="absolute top-1/2 right-20 text-pink-400 opacity-40 animate-float" style="animation-duration: 6s; animation-delay: 2s;">
-                            <i class="fas fa-rocket text-3xl drop-shadow-lg"></i>
-                        </div>
+    <div class="relative z-10 text-center">
+        <div class="mb-12 flex justify-center">
+            <div class="relative w-32 h-32 flex items-center justify-center">
+                <div class="absolute inset-0 rounded-full border-[3px] border-transparent border-t-[#f5f5f7] animate-spin" style="animation-duration: 0.8s;"></div>
+                
+                <div class="relative bg-gradient-to-br from-[#112240] to-[#0a192f] rounded-full p-6 shadow-2xl border border-white/10">
+                    <div class="relative h-full flex items-center justify-center">
+                        <img src="https://horizons-cdn.hostinger.com/cee446de-c236-4591-b8e5-f3ace8481109/7a368cfaf01ec17726b689fc69367d25.png" 
+                             alt="TSE Logo" 
+                             class="w-16 h-16 brightness-110 contrast-125" 
+                             style="filter: drop-shadow(0 0 10px rgba(245, 245, 247, 0.3));"/>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <style>
-                    @keyframes float {
-                        0%, 100% { transform: translateY(0px) rotate(0deg); }
-                        50% { transform: translateY(-20px) rotate(10deg); }
-                    }
-                    
-                    .animate-float {
-                        animation: float 6s ease-in-out infinite;
-                    }
-                </style>
+        <div class="mb-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-[#f5f5f7] tracking-tight mb-2">
+                The Skill Of Education
+            </h2>
+            <p class="text-xs uppercase tracking-[0.3em] text-slate-400 font-medium opacity-80">
+                Excellence in Learning
+            </p>
+        </div>
 
-                <script>
-                // IMPROVED LOADING SCREEN MANAGER
-                class LoadingScreenManager {
-                    constructor() {
-                        this.startTime = Date.now();
-                        this.loadingScreenMinimum = 3500; // 3.5 seconds minimum display
-                        this.maxLoadTime = 8000; // 8 seconds maximum
-                        this.isPageReady = false;
-                        this.init();
-                    }
+        <div class="w-64 mx-auto">
+            <div class="h-[2px] bg-slate-800 rounded-full overflow-hidden">
+                <div id="fastBar" class="h-full bg-[#f5f5f7] transition-all duration-500 ease-out" style="width: 0%; box-shadow: 0 0 15px rgba(245, 245, 247, 0.5);"></div>
+            </div>
+            <div class="flex justify-between mt-2">
+                <span class="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Initialising</span>
+                <span id="loadPercent" class="text-[10px] text-slate-500 font-bold">0%</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-                    init() {
-                        // Start progress animation immediately
-                        this.animateProgressBars();
-                        
-                        // Update loading messages
-                        this.updateLoadingMessages();
-                        
-                        // Monitor page readiness
-                        this.monitorPageLoad();
-                        
-                        // Auto-hide after minimum time if page is ready
-                        this.setupAutoHide();
-                    }
+<style>
+    /* Prevent scrolling while loading */
+    body { overflow: hidden; }
+    
+    @keyframes blob {
+        0%, 100% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(30px, -30px) scale(1.1); }
+    }
+    
+    .animate-blob { animation: blob 10s infinite ease-in-out; }
+    
+    /* Smooth Body Reveal */
+    body.loaded { 
+        overflow: auto !important; 
+    }
+</style>
 
-                    animateProgressBars() {
-                        const bars = [
-                            { id: 'bar1', progress: 'progress1', speed: 35, targetWidth: 92 },
-                            { id: 'bar2', progress: 'progress2', speed: 40, targetWidth: 87 },
-                            { id: 'bar3', progress: 'progress3', speed: 25, targetWidth: 95 }
-                        ];
+<script>
+    (function() {
+        const loader = document.getElementById('loadingScreen');
+        const bar = document.getElementById('fastBar');
+        const percentText = document.getElementById('loadPercent');
+        
+        // 1. Instant progress start
+        setTimeout(() => { 
+            if(bar) bar.style.width = '100%'; 
+            if(percentText) percentText.textContent = '100%';
+        }, 50);
 
-                        bars.forEach((bar, index) => {
-                            setTimeout(() => {
-                                let currentWidth = 0;
-                                const interval = setInterval(() => {
-                                    const increment = Math.random() * bar.speed;
-                                    currentWidth = Math.min(currentWidth + increment, bar.targetWidth - (Math.random() * 5));
-                                    
-                                    const barElement = document.getElementById(bar.id);
-                                    const progressElement = document.getElementById(bar.progress);
-                                    
-                                    if (barElement) {
-                                        barElement.style.width = currentWidth + '%';
-                                    }
-                                    if (progressElement) {
-                                        progressElement.textContent = Math.round(currentWidth) + '%';
-                                    }
-                                    
-                                    if (currentWidth >= bar.targetWidth - 2) {
-                                        clearInterval(interval);
-                                        // Final push to target
-                                        if (barElement) barElement.style.width = bar.targetWidth + '%';
-                                        if (progressElement) progressElement.textContent = bar.targetWidth + '%';
-                                    }
-                                }, 150 + (index * 100));
-                            }, index * 200);
-                        });
-                    }
+        // 2. Strict 0.5s (500ms) execution
+        const finishLoading = () => {
+            if(!loader) return;
+            
+            // Fade out the overlay
+            loader.style.opacity = '0';
+            
+            // Final cleanup after CSS transition finishes
+            setTimeout(() => {
+                loader.style.display = 'none';
+                document.body.classList.add('loaded');
+            }, 500); 
+        };
 
-                    updateLoadingMessages() {
-                        const messages = [
-                            'Loading amazing content',
-                            'Initializing features',
-                            'Connecting to servers',
-                            'Preparing your dashboard',
-                            'Almost ready',
-                            'Final touches'
-                        ];
-
-                        let messageIndex = 0;
-                        const messageInterval = setInterval(() => {
-                            if (messageIndex < messages.length) {
-                                const loadingText = document.getElementById('loadingText');
-                                if (loadingText) {
-                                    loadingText.style.animation = 'none';
-                                    setTimeout(() => {
-                                        loadingText.textContent = messages[messageIndex];
-                                        loadingText.style.animation = 'fadeInOut 0.5s ease-in-out';
-                                    }, 10);
-                                }
-                                messageIndex++;
-                            } else {
-                                clearInterval(messageInterval);
-                            }
-                        }, 900);
-                    }
-
-                    monitorPageLoad() {
-                        // Check if document is fully loaded
-                        if (document.readyState === 'complete') {
-                            this.isPageReady = true;
-                        }
-
-                        window.addEventListener('load', () => {
-                            this.isPageReady = true;
-                        });
-
-                        // Also check if all major resources are loaded
-                        document.addEventListener('DOMContentLoaded', () => {
-                            setTimeout(() => {
-                                this.isPageReady = true;
-                            }, 500);
-                        });
-                    }
-
-                    setupAutoHide() {
-                        // Check every 500ms if we should hide the loading screen
-                        const checkInterval = setInterval(() => {
-                            const elapsed = Date.now() - this.startTime;
-                            
-                            // Hide if minimum time has passed AND page is ready, OR maximum time reached
-                            if ((elapsed >= this.loadingScreenMinimum && this.isPageReady) || elapsed >= this.maxLoadTime) {
-                                clearInterval(checkInterval);
-                                this.hideLoadingScreen();
-                            }
-                        }, 500);
-                    }
-
-                    hideLoadingScreen() {
-                        const loadingScreen = document.getElementById('loadingScreen');
-                        if (!loadingScreen) return;
-
-                        // Complete progress bars
-                        const bars = ['bar1', 'bar2', 'bar3'];
-                        bars.forEach((barId, index) => {
-                            setTimeout(() => {
-                                const bar = document.getElementById(barId);
-                                const progress = document.getElementById(`progress${index + 1}`);
-                                if (bar) {
-                                    bar.style.width = '100%';
-                                    bar.style.transition = 'width 0.5s ease-out';
-                                }
-                                if (progress) {
-                                    progress.textContent = '100%';
-                                }
-                            }, index * 100);
-                        });
-
-                        // Show completion message
-                        const loadingText = document.getElementById('loadingText');
-                        if (loadingText) {
-                            setTimeout(() => {
-                                loadingText.innerHTML = '<i class="fas fa-check-circle text-green-400 mr-2"></i>Ready to go!';
-                                loadingText.style.color = '#86efac';
-                            }, 500);
-                        }
-
-                        // Fade out loading screen
-                        setTimeout(() => {
-                            loadingScreen.style.animation = 'fadeOutScreen 0.8s ease-out forwards';
-                            setTimeout(() => {
-                                loadingScreen.style.display = 'none';
-                                document.body.style.overflow = 'auto';
-                            }, 800);
-                        }, 800);
-                    }
-                }
-
-                // Initialize loading screen manager when DOM is ready
-                if (document.readyState === 'loading') {
-                    document.addEventListener('DOMContentLoaded', () => {
-                        new LoadingScreenManager();
-                    });
-                } else {
-                    new LoadingScreenManager();
-                }
-
-                // Add fade animations
-                const style = document.createElement('style');
-                style.textContent = `
-                    @keyframes fadeOutScreen {
-                        from {
-                            opacity: 1;
-                            visibility: visible;
-                        }
-                        to {
-                            opacity: 0;
-                            visibility: hidden;
-                        }
-                    }
-
-                    @keyframes fadeInOut {
-                        0% { opacity: 0.5; }
-                        50% { opacity: 1; }
-                        100% { opacity: 0.5; }
-                    }
-                `;
-                document.head.appendChild(style);
-                </script>
-
-                        <!-- Enhanced Loading Screen Script -->
-                        <script>
-                            // Dynamic Loading Screen Manager
-                            class LoadingScreenManager {
-                                constructor() {
-                                    this.startTime = Date.now();
-                                    this.maxLoadTime = 3000; // 3 seconds maximum
-                                    this.minLoadTime = 1500; // 1.5 seconds minimum
-                                    this.isServerDown = false;
-                                    this.init();
-                                }
-
-                                init() {
-                                    this.startProgressAnimation();
-                                    this.checkServerStatus();
-                                    this.setupAutoHide();
-                                }
-
-                                startProgressAnimation() {
-                                    const bars = [
-                                        { id: 'bar1', progress: 'progress1', speed: 30, targetWidth: 92 },
-                                        { id: 'bar2', progress: 'progress2', speed: 40, targetWidth: 87 },
-                                        { id: 'bar3', progress: 'progress3', speed: 25, targetWidth: 95 }
-                                    ];
-
-                                    bars.forEach(bar => {
-                                        let currentWidth = 0;
-                                        const interval = setInterval(() => {
-                                            const increment = Math.random() * bar.speed;
-                                            currentWidth = Math.min(currentWidth + increment, bar.targetWidth - 5);
-                                            
-                                            const barElement = document.getElementById(bar.id);
-                                            const progressElement = document.getElementById(bar.progress);
-                                            
-                                            if (barElement) barElement.style.width = currentWidth + '%';
-                                            if (progressElement) progressElement.textContent = Math.round(currentWidth) + '%';
-                                            
-                                            if (currentWidth >= bar.targetWidth - 5) {
-                                                clearInterval(interval);
-                                                // Final push to target
-                                                if (barElement) barElement.style.width = bar.targetWidth + '%';
-                                                if (progressElement) progressElement.textContent = bar.targetWidth + '%';
-                                            }
-                                        }, 200);
-                                    });
-                                }
-
-                                checkServerStatus() {
-                                    // Simple server check with timeout
-                                    const serverCheckTimeout = setTimeout(() => {
-                                        this.showServerError();
-                                        this.isServerDown = true;
-                                    }, 4000); // Show error after 4 seconds if not loaded
-
-                                    // Check if page actually loaded
-                                    window.addEventListener('load', () => {
-                                        clearTimeout(serverCheckTimeout);
-                                        if (!this.isServerDown) {
-                                            this.hideLoadingScreen();
-                                        }
-                                    });
-                                }
-
-                                setupAutoHide() {
-                                    // Auto-hide after minimum time even if not fully loaded
-                                    setTimeout(() => {
-                                        if (!this.isServerDown && document.getElementById('loadingScreen').style.display !== 'none') {
-                                            this.hideLoadingScreen();
-                                        }
-                                    }, this.minLoadTime);
-                                }
-
-                                hideLoadingScreen() {
-                                    const loadingScreen = document.getElementById('loadingScreen');
-                                    if (loadingScreen) {
-                                        const duration = Date.now() - this.startTime;
-                                        
-                                        // Add completion animation
-                                        const bars = ['bar1', 'bar2', 'bar3'];
-                                        bars.forEach(barId => {
-                                            const bar = document.getElementById(barId);
-                                            if (bar) bar.style.width = '100%';
-                                        });
-
-                                        // Update progress text
-                                        document.getElementById('progress1').textContent = '100%';
-                                        document.getElementById('progress2').textContent = '100%';
-                                        document.getElementById('progress3').textContent = '100%';
-
-                                        // Show completion message
-                                        const loadingText = document.getElementById('loadingText');
-                                        if (loadingText) {
-                                            loadingText.innerHTML = '<i class="fas fa-check-circle text-green-400 mr-2"></i>Ready to go!';
-                                        }
-
-                                        // Fade out
-                                        setTimeout(() => {
-                                            loadingScreen.style.animation = 'fadeOut 0.8s ease-out forwards';
-                                            setTimeout(() => {
-                                                loadingScreen.style.display = 'none';
-                                                document.body.style.overflow = 'auto';
-                                            }, 800);
-                                        }, 300);
-                                    }
-                                }
-
-                                showServerError() {
-                                    const serverAlert = document.getElementById('serverAlert');
-                                    if (serverAlert) {
-                                        serverAlert.classList.remove('hidden');
-                                        
-                                        // Change loading text
-                                        const loadingText = document.getElementById('loadingText');
-                                        if (loadingText) {
-                                            loadingText.innerHTML = '<i class="fas fa-times-circle text-red-400 mr-2"></i>Connection timeout';
-                                        }
-                                    }
-                                }
-                            }
-
-                            // Initialize when DOM is ready
-                            document.addEventListener('DOMContentLoaded', () => {
-                                new LoadingScreenManager();
-                            });
-
-                            // Alternative: Auto-hide if page somehow loads very fast
-                            if (document.readyState === 'complete') {
-                                new LoadingScreenManager();
-                            }
-
-                            // Dynamic message rotation
-                            const messages = [
-                                'Loading amazing content',
-                                'Preparing your journey',
-                                'Initializing features',
-                                'Optimizing performance',
-                                'Connecting to servers',
-                                'Setting up environment'
-                            ];
-
-                            let messageIndex = 0;
-                            setInterval(() => {
-                                const loadingText = document.getElementById('loadingText');
-                                if (loadingText && !loadingText.innerHTML.includes('fas')) {
-                                    messageIndex = (messageIndex + 1) % messages.length;
-                                    loadingText.textContent = messages[messageIndex];
-                                }
-                            }, 800);
-                        </script>
-
-                        <!-- Enhanced CSS Animations -->
-                        <style>
-                            @keyframes loadingBar {
-                                0%, 100% { transform: translateX(-100%); opacity: 0; }
-                                50% { opacity: 1; }
-                            }
-
-                            @keyframes fadeOut {
-                                from {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-                                to {
-                                    opacity: 0;
-                                    visibility: hidden;
-                                }
-                            }
-
-                            @keyframes slideInUp {
-                                from {
-                                    opacity: 0;
-                                    transform: translateY(20px);
-                                }
-                                to {
-                                    opacity: 1;
-                                    transform: translateY(0);
-                                }
-                            }
-
-                            .animate-float {
-                                animation: float 6s ease-in-out infinite;
-                            }
-
-                            @keyframes float {
-                                0%, 100% { transform: translateY(0px) rotate(0deg); }
-                                50% { transform: translateY(-20px) rotate(10deg); }
-                            }
-
-                            /* Glow effect for progress bars */
-                            #bar1, #bar2, #bar3 {
-                                transition: width 0.3s ease;
-                            }
-                        </style>  <!-- Loading Screen Styles -->
-                <style>
-                    @keyframes blob {
-                        0%, 100% { transform: translate(0, 0) scale(1); }
-                        25% { transform: translate(20px, -50px) scale(1.1); }
-                        50% { transform: translate(-20px, 20px) scale(0.9); }
-                        75% { transform: translate(50px, 50px) scale(1.05); }
-                    }
-
-                    @keyframes loadingBar {
-                        0%, 100% { transform: translateX(-100%); }
-                        50% { transform: translateX(100%); }
-                    }
-
-                    @keyframes float {
-                        0%, 100% { transform: translateY(0px) rotate(0deg); }
-                        50% { transform: translateY(-20px) rotate(10deg); }
-                    }
-
-                    .animate-blob {
-                        animation: blob 7s infinite;
-                    }
-
-                    .animation-delay-2000 {
-                        animation-delay: 2s;
-                    }
-
-                    .animation-delay-4000 {
-                        animation-delay: 4s;
-                    }
-
-                    .animate-float {
-                        animation: float 6s ease-in-out infinite;
-                    }
-                </style>
-
-                <!-- Loading Screen Script -->
-                <script>
-                    // Array of loading messages
-                    const loadingMessages = [
-                        "Loading amazing content",
-                        "Preparing your experience",
-                        "Initializing futures",
-                        "Building possibilities",
-                        "Connecting dreams",
-                        "Crafting knowledge"
-                    ];
-
-                    let messageIndex = 0;
-
-                    // Change loading message every 2 seconds
-                    setInterval(() => {
-                        const loadingText = document.getElementById('loadingText');
-                        if (loadingText) {
-                            messageIndex = (messageIndex + 1) % loadingMessages.length;
-                            loadingText.textContent = loadingMessages[messageIndex];
-                        }
-                    }, 2000);
-
-                    // Hide loading screen after page loads
-                    window.addEventListener('load', () => {
-                        const loadingScreen = document.getElementById('loadingScreen');
-                        if (loadingScreen) {
-                            loadingScreen.style.animation = 'fadeOut 0.8s ease-out forwards';
-                            setTimeout(() => {
-                                loadingScreen.style.display = 'none';
-                                document.body.style.overflow = 'auto';
-                            }, 800);
-                        }
-                    });
-
-                    // Add fade out animation
-                    const style = document.createElement('style');
-                    style.textContent = `
-                        @keyframes fadeOut {
-                            from {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                            to {
-                                opacity: 0;
-                                visibility: hidden;
-                            }
-                        }
-                    `;
-                    document.head.appendChild(style);
-                </script>
-
+        // Trigger finish exactly at 500ms
+        setTimeout(finishLoading, 500);
+    })();
+</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TSE</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -4672,15 +4115,20 @@
 
                     <!-- Modern Interactive CTA Section -->
                     <div class="space-y-6 mt-8">
-                        <!-- Primary Button with Hover Effect -->
-                        <button class="group relative px-8 md:px-14 py-4 md:py-5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white rounded-full font-bold text-lg md:text-xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 overflow-hidden" onclick="openModal('signup')">
-                            <span class="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                            <span class="relative flex items-center justify-center gap-3">
-                                <i class="fas fa-star group-hover:rotate-180 transition-transform duration-500"></i>
-                                <span>Start Your Journey Today</span>
-                                <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300"></i>
-                            </span>
-                        </button>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSer5F9aDAMLmKiecNnLXo5HBtnXENovBAeetypBDakFv99PBw/viewform?usp=sharing&ouid=116466663465325634430" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="group relative inline-flex items-center justify-center px-8 md:px-14 py-4 md:py-5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white rounded-full font-bold text-lg md:text-xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+        
+        <span class="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+        
+        <span class="relative flex items-center justify-center gap-3">
+            <i class="fas fa-star group-hover:rotate-180 transition-transform duration-500"></i>
+            <span>Start Your Journey Today</span>
+            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300"></i>
+        </span>
+    </a>
+</div>
 
                         <!-- Secondary Action Button -->
                         <div class="flex flex-col md:flex-row gap-4 justify-center items-center">                        
@@ -4977,7 +4425,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        
 
                                         <!-- Footer with Social Links -->
                                         <div class="flex flex-col md:flex-row gap-4 p-8 bg-gray-50 border-t-2 border-gray-200">
